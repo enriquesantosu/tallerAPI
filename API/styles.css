@@ -1,0 +1,43 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.overflow {
+    overflow-y: auto;
+    background-color: black;
+    /* max-height: 100vh; */
+    height: 75vh;
+}
+
+.btn {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 22%;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+
+.btn:active {
+    background-color: black !important;
+    border-color: red !important;
+    color: initial white !important;
+}
+
+/* .btn1 {
+    transform: translateX(12px);
+}
+
+.btn2 {
+    transform: translateX(-24px);
+} */

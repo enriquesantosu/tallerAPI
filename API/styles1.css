@@ -1,0 +1,95 @@
+/* Fonts */
+
+@font-face {
+    font-family: pokemonFontHollow;
+    src: url(assets/Pokemon\ Hollow.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: pokemonFontSolid;
+    src: url(assets/Pokemon\ Solid.ttf) format('truetype');
+}
+
+
+/* Values */
+
+:root {
+    --dynamic-font-size: calc(20vh + 20vw / 2);
+}
+
+
+
+body {
+    background-color: red;
+}
+
+h1 {
+    position: absolute;
+    font-size: 9vw
+}
+
+.outerFont {
+    -webkit-text-stroke: .5rem;
+}
+
+
+.container {
+    margin-top: 12rem;
+}
+
+
+/* Cards */
+
+.cardBody {
+    background-color: white;
+}
+
+.hp {
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+.hp>span {
+    border: 1px solid black;
+    border-radius: 80px;
+
+}
+
+.textHP {
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.numberHP {
+    padding-right: 5px;
+}
+
+.attack {
+    padding-left: 10px;
+}
+
+.speed {
+    padding-right: 10px;
+}
+
+
+.buttons {
+    margin-top: 70px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.btn:active {
+    background-color: white;
+}
